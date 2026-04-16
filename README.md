@@ -80,9 +80,17 @@ gtkwave rca.vcd
 
 ---
 
-## 📷 Waveform Output
+ ## 📷 ALU Waveform Output
+![ALU Waveform](docs/alu_waveform.png)
 
-![Waveform](docs/waveform.png)
+## 📷 Half Adder Waveform Output
+![Half Adder Waveform](docs/half_adder_waveform.png)
+
+## 📷 Full Adder Waveform Output
+![Full Adder Waveform](docs/full_adder_waveform.png)
+
+## 📷 Ripple Adder Waveform Output
+![Ripple Waveform](docs/ripple_waveform.png)
 
 ---
 
