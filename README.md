@@ -1,9 +1,9 @@
 # 🔷 4-bit ALU using Verilog
 
 ## 📌 Description
+This project implements a 4-bit Arithmetic Logic Unit (ALU) using Verilog HDL.  
 
-This project implements a 4-bit Arithmetic Logic Unit (ALU) using Verilog HDL.
-The ALU performs both arithmetic and logical operations based on a control signal and is verified using simulation waveforms.
+The design follows a hierarchical approach, starting from basic building blocks such as Half Adder and Full Adder, which are used to construct a Ripple Carry Adder. The ALU performs both arithmetic and logical operations based on a control signal and is verified using simulation waveforms.
 
 ---
 
