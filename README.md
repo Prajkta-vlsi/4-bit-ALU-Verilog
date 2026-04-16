@@ -26,7 +26,7 @@ The ALU operation is selected using a 3-bit control signal (`sel`):
 | 000 | A + B     |
 | 001 | A - B     |
 | 010 | A & B     |
-| 011 | A | B     |
+| 011 | A \| B     |
 | 100 | A ^ B     |
 
 ---
@@ -93,5 +93,15 @@ gtkwave rca.vcd
 * `docs/` → Waveform output
 
 ---
+## ✅ Result
+The Half Adder, Full Adder, and Ripple Carry Adder were successfully designed and verified using simulation waveforms.
+
+The 4-bit ALU was implemented using these concepts and tested for multiple arithmetic and logical operations. All modules produced correct outputs as verified in GTKWave.
+
+## 📌 Note
+- The design follows a hierarchical approach:
+  Half Adder → Full Adder → Ripple Carry Adder → ALU  
+- Each module depends on lower-level modules  
+- All dependent files must be compiled together during simulation  
 
 
